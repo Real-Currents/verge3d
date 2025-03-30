@@ -7,7 +7,9 @@
   "main": "./build/v3d.js",
   "module": "./build/v3d.module.js",
   "exports": {
-    ".": "./build/v3d.module.js"
+    ".": "./build/v3d.module.js",
+   "./addons/*": "./jsm/*",
+   "./fonts/*": "./fonts/*"
   },
   "repository": "verge3d",
   "files": [
